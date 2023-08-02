@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MONDRIAN PROJECT</title>
+
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+        }
+
+        .container{
+            height: 1040px;
+            width: 910px;
+            gap: 20px;
+            display: grid;
+            grid-template-rows: 50px 80px 180px 150px 50px 160px 180px 50px 80px;
+            grid-template-columns: 400px 200px 120px 80px 30px;
+            background-color: black;
+        
+        }
+
+        .item{
+            background-color: whitesmoke;
+        }
+
+        .red{
+            background-color: #F3321A;
+            grid-row: span 2;
+            margin-left: 6px;
+            margin-top: 11px;
+        }
+
+        .white{
+            grid-row: span 2;
+            margin-top: 11px
+        }
+
+        .white2{
+            grid-column: span 3;
+        }
+
+        .blue{
+            background-color: #4AA6E2;
+            margin-left: 6px;
+            grid-area: 3 / 1 / 5 / 2;
+        }
+
+        .black{
+            background-color: black;
+            grid-area: 3 / 2 / 5 / 3;
+        }
+
+        .yellow{
+            background-color: #FBE631;
+            grid-area: 2 / 3 / 4 / -1;
+        }
+
+        .white3{
+            grid-area: 4 / 3 / 5 / 5;
+        }
+
+    
+        .white4{
+            background-color: whitesmoke;
+            grid-area: 5 / 1 / 6 / 2;
+            margin-left: 6px;
+        }
+
+        .red2{
+            background-color: #F3321A;
+            grid-area: 5 / 2 / 7 / 3;
+        }
+
+        .red3{
+            background-color: #F3321A;
+            grid-area: 5 / 3 / 7 / 5;
+        }
+
+        .black2{
+            background-color: black;
+            grid-area: 4 / 5 / 7 / 6;
+
+        }
+
+        .white5{
+            grid-area: 6 / 1 / 8 / 2;
+            margin-left: 6px;
+        }
+
+        .blue2{
+            background-color: #4AA6E2;
+            grid-area: 7 / 2 / 8 / 4;
+        }
+
+        .white6{
+            grid-area: 7 / 4 / 8 / 5;
+        }
+       
+        .white7{
+            grid-area: 7 / 5 / 8 / 6;
+        }
+
+        .yellow2{
+            background-color: #FBE631;
+            grid-area: 8 / 1 / 9 / 4;
+            margin-left: 6px;
+            margin-bottom: 11px;
+        }
+
+        .white8{
+            grid-area: 8 / 4 / 9 / 6;
+            margin-bottom: 11px;
+        }
+
+        .signture{
+            grid-area: 9 / 1 / 10 / 6;
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="item red"></div>
+        <div class="item white"></div>
+        <div class="item white2"></div>
+
+        <div class="item blue"></div>
+        <div class="item black"></div>
+        <div class="item yellow"></div>
+        <div class="item white3"></div>
+
+        <div class="item white4"></div>
+        <div class="item red2"></div>
+        <div class="item red3"></div>
+        <div class="item black2"></div>
+
+        <div class="item white5"></div>
+        <div class="item blue2"></div>
+        <div class="item white6"></div>
+        <div class="item white7"></div>
+
+        <div class="item yellow2"></div>
+        <div class="item white8"></div>
+        <div class="signture">
+            <h1>VIGGIANI ANGELO</h1>
+            <caption>Mondrian Project</caption>
+        </div>
+
+    </div>
+    
+</body>
+</html>
